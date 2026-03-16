@@ -54,7 +54,8 @@ For a small team, **1 concurrent build** is sufficient.For multiple developers w
 
 ### **Storage Requirements**
 
-* **Artifact storage:** Windows builds typically range from 1–5 GB. Recommended allocation is 100–200 GB for short‑term artifacts, with cloud storage for long‑term retention.
+* **Artifact storage:**
+* Windows builds typically range from 1–5 GB. Recommended allocation is 100–200 GB for short‑term artifacts, with cloud storage for long‑term retention.
 * **Retention policy:**
   * CI builds: 7–14 days
   * Release candidates: 3–6 months
