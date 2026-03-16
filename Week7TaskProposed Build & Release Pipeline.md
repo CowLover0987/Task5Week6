@@ -123,7 +123,8 @@ Visual Studio Build Tools, Windows 10/11 SDKs, Unreal’s UBT (UnrealBuildTool) 
 
 ### **Linux Build Pipeline**
 
-**Required SDKs:**Linux toolchain, Unreal Linux cross‑compile toolchain (provided by Epic), required runtime libraries
+**Required SDKs:**
+Linux toolchain, Unreal Linux cross‑compile toolchain (provided by Epic), required runtime libraries
 
 **Build Steps:**
 
@@ -152,15 +153,20 @@ Visual Studio Build Tools, Windows 10/11 SDKs, Unreal’s UBT (UnrealBuildTool) 
 
 ### **Internal Distribution**
 
-* **Shared drive/NAS:** Packaged builds will be automatically uploaded to a shared network drive accessible to the development team.
-* **Cloud storage link:** Alternatively, Jenkins can upload builds to a cloud storage provider.
-* **Automated upload from CI:** Jenkins will handle uploads automatically at the end of the pipeline.
+* **Shared drive/NAS:**
+* Packaged builds will be automatically uploaded to a shared network drive accessible to the development team.
+* **Cloud storage link:**
+* Alternatively, Jenkins can upload builds to a cloud storage provider.
+* **Automated upload from CI:**
+* Jenkins will handle uploads automatically at the end of the pipeline.
 
 ### **External Distribution (itch.io)**
 
-**How builds are uploaded:**Jenkins runs the `butler push` command as the final stage of the pipeline.Only changed files are uploaded, reducing time and bandwidth.Authentication is handled via API keys stored securely in Jenkins credentials.
+**How builds are uploaded:**
+Jenkins runs the `butler push` command as the final stage of the pipeline.Only changed files are uploaded, reducing time and bandwidth.Authentication is handled via API keys stored securely in Jenkins credentials.
 
-**Channel/Branch Management:**itch.io supports multiple release channels:
+**Channel/Branch Management:**
+itch.io supports multiple release channels:
 
 * `windows-beta` / `linux-beta` for internal testers and early access
 * `windows-release` / `linux-release` for stable builds
