@@ -145,7 +145,7 @@ Linux toolchain, Unreal Linux cross‑compile toolchain (provided by Epic), requ
 
 **6. Automation Diagram**
 
-[img]
+![diagram](https://github.com/CowLover0987/The-Lost-Demo-Screenshots/blob/main/Automation%20Diagram.drawio.png)
 
 * * *
 
