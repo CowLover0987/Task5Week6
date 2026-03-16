@@ -101,7 +101,8 @@ For a small team, **1 concurrent build** is sufficient.For multiple developers w
 
 ### **Windows Build Pipeline**
 
-**Required SDKs:**Visual Studio Build Tools, Windows 10/11 SDKs, Unreal’s UBT (UnrealBuildTool) and UAT (Unreal Automation Tool)
+**Required SDKs:**
+Visual Studio Build Tools, Windows 10/11 SDKs, Unreal’s UBT (UnrealBuildTool) and UAT (Unreal Automation Tool)
 
 **Build Steps:**
 
